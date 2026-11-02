@@ -1,7 +1,3 @@
-import heroImg from '../assets/hero.png'
-import scanImg from '../assets/scan.png'
-import licenseImg from '../assets/license.png'
-import yardImg from '../assets/yard.png'
 import { Check, Icon } from './Icons.jsx'
 import { DEMO_MAIL, stats, pains, features } from '../data.js'
 
@@ -24,7 +20,7 @@ export const Nav = () => (
 
 export const Hero = () => (
   <section id="top" className="relative flex min-h-[560px] items-center overflow-hidden">
-    <img src={heroImg} alt="Security officer checking a driver at an industrial site gate, with a cement truck waiting at the barrier" className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
+    <img src="/img1.jpg" alt="Security officer checking a driver at an industrial site gate, with a cement truck waiting at the barrier" className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
     <div className="absolute inset-0 bg-[linear-gradient(100deg,rgba(15,27,43,.94)_0%,rgba(15,27,43,.82)_42%,rgba(15,27,43,.35)_75%,rgba(15,27,43,.15)_100%)]" />
     <div className="wrap relative py-24">
       <div className="flex max-w-[600px] flex-col gap-6">
@@ -95,11 +91,11 @@ const Split = ({ id, bg, reverse, img, alt, eyebrow, title, body, bullets }) => 
 
 export const Splits = () => (
   <>
-    <Split id="how-it-works" bg="bg-cloud" img={scanImg} alt="Security guard scanning a QR-coded gate pass on a truck windshield with a smartphone"
+    <Split id="how-it-works" bg="bg-cloud" img="/img2.jpg" alt="Security guard scanning a QR-coded gate pass on a truck windshield with a smartphone"
       eyebrow="At the gate · entry" title="A gate pass that scans in seconds"
       body="Every monthly gate pass carries a unique QR code. Security scans it on a phone camera — no lookup, no paperwork — and the system checks license, insurance, and eligibility behind the scan in real time."
       bullets={['Instant pass/fail at the barrier, not after an incident', "No proprietary scanners — works on any guard's phone", 'Every scan logged automatically for audits']} />
-    <Split reverse img={licenseImg} alt="Driver handing his license to a security officer at a factory gate booth"
+    <Split reverse img="/img3.jpg" alt="Driver handing his license to a security officer at a factory gate booth"
       eyebrow="Compliance · eligibility" title="Documents checked before anyone's waved through"
       body="License, vehicle insurance, and gate pass validity are verified automatically the moment a driver checks in — flagged issues can suspend a driver or vehicle instantly, with photo evidence attached for supervisor review."
       bullets={['Expired documents block entry automatically', 'Configurable penalty and suspension workflows', 'One inspection clears multiple trips']} />
@@ -127,7 +123,7 @@ export const Features = () => (
 
 export const Band = () => (
   <section className="relative flex min-h-[340px] items-center">
-    <img src={yardImg} alt="Aerial view of an industrial logistics warehouse yard with rows of trucks at loading docks" loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+    <img src="/img4.jpg" alt="Aerial view of an industrial logistics warehouse yard with rows of trucks at loading docks" loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
     <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(15,27,43,.92)_0%,rgba(15,27,43,.55)_60%,rgba(15,27,43,.25)_100%)]" />
     <div className="wrap relative py-14">
       <div className="eyebrow mb-2.5 !text-amber">Already running</div>
@@ -163,7 +159,7 @@ export const Pricing = () => (
 
 export const Cta = () => (
   <section id="demo" className="relative flex min-h-[420px] items-center">
-    <img src={heroImg} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover [object-position:center_30%]" />
+    <img src="/img1.jpg" alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover [object-position:center_30%]" />
     <div className="absolute inset-0 bg-navy/90" />
     <div className="relative mx-auto flex max-w-[640px] flex-col items-center gap-5 px-6 py-[84px] text-center">
       <h2 className="font-head text-[clamp(26px,3.6vw,38px)] font-extrabold text-white">See it running on a real gate</h2>
