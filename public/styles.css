@@ -291,3 +291,6 @@ body.no-scroll { overflow: hidden; }
 .article th, .article td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--line); }
 .article th { background: #f5f7fa; font: 700 13px var(--head); text-transform: uppercase; letter-spacing: .05em; }
 .article tbody tr:last-child td { border-bottom: 0; }
+
+.post-faq { margin-top: 44px; }
+.post-faq .faq { max-width: none; }
