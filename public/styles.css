@@ -50,16 +50,16 @@ h1, h2, h3 { font-family: var(--head); color: var(--navy); }
 
 /* ---------- Header ---------- */
 .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 20; border-bottom: 1px solid transparent; background: transparent; transition: background-color .25s, border-color .25s, box-shadow .25s; }
-.site-header.scrolled, .site-header.menu-open { border-bottom-color: var(--line); background: rgb(255 255 255 / .96); box-shadow: 0 8px 24px -16px rgb(15 27 43 / .25); }
+.site-header.scrolled, .site-header.solid, .site-header.menu-open { border-bottom-color: var(--line); background: rgb(255 255 255 / .96); box-shadow: 0 8px 24px -16px rgb(15 27 43 / .25); }
 @supports (backdrop-filter: blur(8px)) { .site-header.scrolled { backdrop-filter: blur(10px); } }
 .site-header .wrap { position: relative; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; }
 .brand { display: flex; align-items: center; gap: 10px; font: 800 21px var(--head); color: #fff; transition: color .25s; }
-.scrolled .brand, .menu-open .brand { color: var(--navy); }
+.scrolled .brand, .solid .brand, .menu-open .brand { color: var(--navy); }
 .brand span span { color: var(--amber); }
 .brand img { width: 32px; height: 32px; border-radius: 6px; }
 .site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 30px; }
 .site-nav a:not(.btn) { color: #fff; font-size: 14px; font-weight: 600; transition: color .25s; }
-.scrolled .site-nav a:not(.btn) { color: var(--navy); }
+.scrolled .site-nav a:not(.btn), .solid .site-nav a:not(.btn) { color: var(--navy); }
 .site-nav a:not(.btn):hover, .scrolled .site-nav a:not(.btn):hover { color: var(--amber); }
 .site-nav .btn { padding: 10px 22px; font-size: 14px; }
 
@@ -178,9 +178,9 @@ svg.tick { flex: none; width: 18px; height: 18px; margin-top: 2px; fill: none; s
 
 /* ---------- Mobile nav toggle ---------- */
 .nav-toggle { display: none; width: 44px; height: 44px; padding: 0; border: 1px solid rgb(255 255 255 / .4); border-radius: 10px; background: rgb(15 27 43 / .25); cursor: pointer; transition: border-color .25s, background-color .25s; }
-.scrolled .nav-toggle, .menu-open .nav-toggle { border-color: var(--line); background: #fff; }
+.scrolled .nav-toggle, .solid .nav-toggle, .menu-open .nav-toggle { border-color: var(--line); background: #fff; }
 .nav-toggle .bars, .nav-toggle .bars::before, .nav-toggle .bars::after { display: block; width: 20px; height: 2px; margin: auto; border-radius: 2px; background: #fff; transition: transform .2s, background-color .2s; }
-.scrolled .nav-toggle .bars, .scrolled .nav-toggle .bars::before, .scrolled .nav-toggle .bars::after, .menu-open .nav-toggle .bars::before, .menu-open .nav-toggle .bars::after { background: var(--navy); }
+.scrolled .nav-toggle .bars, .solid .nav-toggle .bars, .solid .nav-toggle .bars::before, .solid .nav-toggle .bars::after, .scrolled .nav-toggle .bars::before, .scrolled .nav-toggle .bars::after, .menu-open .nav-toggle .bars::before, .menu-open .nav-toggle .bars::after { background: var(--navy); }
 .nav-toggle .bars { position: relative; }
 .nav-toggle .bars::before, .nav-toggle .bars::after { content: ""; position: absolute; left: 0; }
 .nav-toggle .bars::before { top: -6px; }
@@ -233,3 +233,38 @@ body.no-scroll { overflow: hidden; }
   html { scroll-behavior: auto; }
   .rise { animation: none; }
 }
+
+/* ---------- Blog ---------- */
+.blog-hero { padding: 132px 0 56px; background: var(--navy); }
+.blog-hero h1 { color: #fff; font-size: clamp(30px, 4.2vw, 44px); font-weight: 800; line-height: 1.15; max-width: 720px; }
+.blog-hero p { margin-top: 14px; max-width: 620px; color: #d7dce4; font-size: 17px; }
+.blog-hero .eyebrow { margin-bottom: 12px; color: var(--amber); }
+.posts { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px; }
+.post-card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; transition: transform .2s, box-shadow .2s, border-color .2s; }
+.post-card:hover { transform: translateY(-3px); border-color: var(--amber); box-shadow: 0 18px 40px -24px rgb(15 27 43 / .4); }
+.post-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.post-card .body { display: flex; flex: 1; flex-direction: column; gap: 10px; padding: 24px; }
+.post-card h2 { font-size: 19px; font-weight: 800; line-height: 1.3; }
+.post-card p { color: var(--slate); font-size: 14.5px; line-height: 1.65; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; color: var(--slate); font-size: 13px; }
+.meta .cat { color: var(--amber-dark); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: 12px; }
+.post-card .more { margin-top: auto; color: var(--amber-dark); font: 700 14px var(--head); }
+.article { max-width: 720px; margin-inline: auto; padding: 120px 20px 72px; }
+.article .crumb { color: var(--amber-dark); font: 700 14px var(--head); }
+.article h1 { margin: 14px 0 14px; font-size: clamp(28px, 4vw, 40px); font-weight: 800; line-height: 1.18; }
+.article .lead { margin-bottom: 8px; color: var(--slate); font-size: 18px; line-height: 1.6; }
+.article .hero-img { margin: 28px 0 36px; border-radius: var(--radius); aspect-ratio: 16 / 9; width: 100%; object-fit: cover; }
+.article h2 { margin: 36px 0 12px; font-size: 24px; font-weight: 800; line-height: 1.25; }
+.article p, .article li { color: var(--ink); font-size: 17px; line-height: 1.8; }
+.article p { margin-bottom: 18px; }
+.article ul { margin: 0 0 18px; padding-left: 22px; list-style: disc; }
+.article li { margin-bottom: 8px; }
+.article-cta { margin-top: 44px; padding: 32px; border-radius: var(--radius); background: var(--navy); }
+.article-cta h2 { margin: 0 0 8px; color: #fff; font-size: 22px; }
+.article-cta p { color: #d7dce4; font-size: 15.5px; }
+.article-cta .btn { margin-top: 6px; }
+.related { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line); }
+.related h2 { margin-top: 0; font-size: 18px; }
+.related a { display: block; padding: 6px 0; color: var(--navy); font-weight: 600; }
+.related a:hover { color: var(--amber-dark); }
+.site-header.solid { background: #fff; }
