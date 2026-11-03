@@ -117,7 +117,10 @@
         <img src="/images/logo-96.png" alt="" width="32" height="32">
         <span>Convoy<span>Pass</span></span>
       </a>
-      <nav class="site-nav" aria-label="Main">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
         <a href="#features">Features</a>
         <a href="#how-it-works">How it works</a>
         <a href="#pricing">Pricing</a>
@@ -138,7 +141,7 @@
         <div class="hero-copy">
           <p class="eyebrow on-dark rise">Vehicle &amp; contractor gate control</p>
           <h1 id="hero-title" class="rise">Stop guessing who's on your site</h1>
-          <p class="rise">ConvoyPass replaces paper gate logs with a governed digital record — blocking unlicensed drivers, uninsured vehicles, and expired gate passes before they ever reach your yard.</p>
+          <p class="rise">ConvoyPass replaces paper gate logs with a governed digital record, blocking unlicensed drivers, uninsured vehicles, and expired gate passes before they ever reach your yard.</p>
           <div class="actions rise">
             <a class="btn btn-amber" href="#demo">Book a demo</a>
             <a class="btn btn-ghost" href="#pricing">See pricing</a>
@@ -194,10 +197,10 @@
         <div class="split-copy">
           <p class="eyebrow">At the gate · entry</p>
           <h2 id="scan-title">A gate pass that scans in seconds</h2>
-          <p>Every monthly gate pass carries a unique QR code. Security scans it on a phone camera — no lookup, no paperwork — and the system checks license, insurance, and eligibility behind the scan in real time.</p>
+          <p>Every monthly gate pass carries a unique QR code. Security scans it on a phone camera, no lookup, no paperwork, and the system checks license, insurance, and eligibility behind the scan in real time.</p>
           <ul class="ticks">
             <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Instant pass/fail at the barrier, not after an incident</li>
-            <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>No proprietary scanners — works on any guard's phone</li>
+            <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>No proprietary scanners, works on any guard's phone</li>
             <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Every scan logged automatically for audits</li>
           </ul>
         </div>
@@ -214,7 +217,7 @@
         <div class="split-copy">
           <p class="eyebrow">Compliance · eligibility</p>
           <h2 id="docs-title">Documents checked before anyone's waved through</h2>
-          <p>License, vehicle insurance, and gate pass validity are verified automatically the moment a driver checks in — flagged issues can suspend a driver or vehicle instantly, with photo evidence attached for supervisor review.</p>
+          <p>License, vehicle insurance, and gate pass validity are verified automatically the moment a driver checks in, flagged issues can suspend a driver or vehicle instantly, with photo evidence attached for supervisor review.</p>
           <ul class="ticks">
             <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Expired documents block entry automatically</li>
             <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Configurable penalty and suspension workflows</li>
@@ -236,7 +239,7 @@
           <article class="card card-line"><h3>Penalty &amp; suspension</h3><p>Photo evidence, configurable penalty types, after-the-fact review.</p></article>
           <article class="card card-line"><h3>Inspection &amp; approval</h3><p>One inspection clears multiple trips, with re-inspection on flags.</p></article>
           <article class="card card-line"><h3>Visit lifecycle</h3><p>Check-in, yard unloading verification, and check-out, fully logged.</p></article>
-          <article class="card card-line"><h3>Monthly gate pass</h3><p>Month-end review flags who's qualified — manual confirm or auto-renew.</p></article>
+          <article class="card card-line"><h3>Monthly gate pass</h3><p>Month-end review flags who's qualified, manual confirm or auto-renew.</p></article>
         </div>
       </div>
     </section>
@@ -249,7 +252,7 @@
       </picture>
       <div class="wrap">
         <p class="eyebrow on-dark">Already running</p>
-        <p>Live at an industrial manufacturing site today — handling real vehicle and driver compliance, not a prototype.</p>
+        <p>Live at an industrial manufacturing site today, handling real vehicle and driver compliance, not a prototype.</p>
       </div>
     </section>
 
@@ -307,10 +310,66 @@
         <source type="image/webp" srcset="/images/hero-800.webp 800w, /images/hero-1280.webp 1280w, /images/hero-1680.webp 1680w" sizes="100vw">
         <img src="/images/hero-1280.webp" width="1680" height="944" loading="lazy" decoding="async" alt="">
       </picture>
-      <div class="inner">
-        <h2 id="demo-title">See it running on a real gate</h2>
-        <p>Book a 20-minute demo and we'll walk you through a live site handling real drivers and vehicles.</p>
-        <a class="btn btn-amber" href="mailto:info@lumoraventures.com?subject=ConvoyPass%20demo%20request">Book a demo</a>
+      <div class="wrap booking">
+        <div class="booking-copy">
+          <h2 id="demo-title">See it running on a real gate</h2>
+          <p>Book a 20-minute demo and we'll walk you through a live site handling real drivers and vehicles. We reply within one business day.</p>
+          <ul class="ticks on-dark">
+            <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>20 minutes, no commitment</li>
+            <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Live walkthrough of the gate flow</li>
+            <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Pricing tailored to your fleet</li>
+          </ul>
+        </div>
+        <form id="booking-form" class="form" action="/api/book" method="post" novalidate>
+          <div class="field">
+            <label for="f-name">Full name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="100">
+          </div>
+          <div class="field">
+            <label for="f-email">Work email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required maxlength="150">
+          </div>
+          <div class="row">
+            <div class="field">
+              <label for="f-company">Company</label>
+              <input id="f-company" name="company" type="text" autocomplete="organization" required maxlength="120">
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone <span>(optional)</span></label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" maxlength="30">
+            </div>
+          </div>
+          <div class="row">
+            <div class="field">
+              <label for="f-date">Preferred date</label>
+              <input id="f-date" name="date" type="date" required>
+            </div>
+            <div class="field">
+              <label for="f-time">Preferred time</label>
+              <select id="f-time" name="time" required>
+                <option value="">Select</option>
+                <option>Morning (9:00 to 12:00)</option>
+                <option>Afternoon (12:00 to 17:00)</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-sites">Number of sites</label>
+            <select id="f-sites" name="sites" required>
+              <option value="">Select</option>
+              <option>1</option>
+              <option>2 to 5</option>
+              <option>6 or more</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-msg">Anything we should know? <span>(optional)</span></label>
+            <textarea id="f-msg" name="message" rows="3" maxlength="1000"></textarea>
+          </div>
+          <div class="hp" aria-hidden="true"><label>Leave blank <input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-amber btn-block" type="submit">Request demo</button>
+          <p id="form-status" class="status" role="status" aria-live="polite"></p>
+        </form>
       </div>
     </section>
   </main>
@@ -319,7 +378,7 @@
     <div class="wrap">
       <div class="about">
         <img src="/images/logo-96.png" alt="" width="24" height="24" loading="lazy">
-        <span>ConvoyPass — vehicle gate-pass &amp; contractor tracking for SMB industrial sites.</span>
+        <span>ConvoyPass: vehicle gate-pass &amp; contractor tracking for SMB industrial sites.</span>
       </div>
       <nav aria-label="Footer">
         <a href="#features">Features</a>
@@ -330,5 +389,6 @@
     </div>
     <div class="wrap legal">© 2026 ConvoyPass, a product of Lumora Ventures.</div>
   </footer>
+  <script src="/site.js" defer></script>
 </body>
 </html>
