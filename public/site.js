@@ -11,6 +11,10 @@
     toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
     document.body.classList.toggle("no-scroll", open);
   }
+  function onScroll() { header.classList.toggle("scrolled", window.scrollY > 24); }
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
+
   if (toggle && nav) {
     toggle.addEventListener("click", function () {
       setMenu(toggle.getAttribute("aria-expanded") !== "true");
