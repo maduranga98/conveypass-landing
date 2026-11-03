@@ -268,3 +268,11 @@ body.no-scroll { overflow: hidden; }
 .related a { display: block; padding: 6px 0; color: var(--navy); font-weight: 600; }
 .related a:hover { color: var(--amber-dark); }
 .site-header.solid { background: #fff; }
+.article h3 { margin: 24px 0 8px; font-size: 19px; font-weight: 700; line-height: 1.35; }
+.article ol { margin: 0 0 18px; padding-left: 24px; list-style: decimal; }
+.article p a { color: var(--amber-dark); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.article .table-wrap { margin: 0 0 20px; overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); }
+.article table { width: 100%; border-collapse: collapse; font-size: 15.5px; }
+.article th, .article td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--line); }
+.article th { background: #f5f7fa; font: 700 13px var(--head); text-transform: uppercase; letter-spacing: .05em; }
+.article tbody tr:last-child td { border-bottom: 0; }
