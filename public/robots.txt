@@ -1,3 +1,14 @@
+# ChatGPT Search discovery and user-initiated visits
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# To opt out of OpenAI model training only, change to "Disallow: /"
+User-agent: GPTBot
+Allow: /
+
 User-agent: *
 Allow: /
 
