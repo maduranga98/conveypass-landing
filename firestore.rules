@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Bookings are written only by the Cloud Function (admin SDK). No client access.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
