@@ -1,29 +1,12 @@
 {
   "hosting": {
+    "site": "conveypass-landing",
     "public": "public",
-    "cleanUrls": true,
-    "trailingSlash": false,
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "headers": [
+    "rewrites": [
       {
         "source": "**",
-        "headers": [
-          { "key": "X-Content-Type-Options", "value": "nosniff" },
-          { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-          { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
-        ]
-      },
-      {
-        "source": "**/*.@(webp|jpg|png|ico)",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
-      },
-      {
-        "source": "**/*.@(css|xml|txt)",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, must-revalidate" }]
-      },
-      {
-        "source": "/",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=300, must-revalidate" }]
+        "destination": "/index.html"
       }
     ]
   }
