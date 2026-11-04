@@ -12,4 +12,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://conveypass.com/sitemap.xml
+Sitemap: https://convoypass.com/sitemap.xml

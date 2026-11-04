@@ -21,4 +21,4 @@ Local preview: `firebase emulators:start --only hosting` (or `npx serve public`)
 - `public/robots.txt`, `public/sitemap.xml`, `public/404.html`
 - `firebase.json`: hosting config (cache + security headers, clean URLs, real 404s)
 
-The domain `https://conveypass.com` is used in `index.html`, `robots.txt` and `sitemap.xml`. Replace it if the live domain differs, and connect the custom domain in Firebase Console → Hosting.
+The domain `https://convoypass.com` is used in `index.html`, `robots.txt` and `sitemap.xml`. Replace it if the live domain differs, and connect the custom domain in Firebase Console → Hosting.

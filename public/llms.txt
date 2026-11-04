@@ -3,16 +3,16 @@
 > ConvoyPass is digital gate pass and contractor vehicle tracking software for industrial sites. It replaces paper gate logs with QR gate passes, automatic driver licence and vehicle insurance expiry checks, penalty and suspension workflows, and audit-ready logs. Guards and drivers sign in with a PIN, with no app or email required. Pricing: $79 per site per month flat, or $39 per month base plus $1.50 per registered vehicle, with no per-user fees. ConvoyPass is a product of Lumora Ventures.
 
 ## Product
-- [Homepage](https://conveypass.com/): features, how it works, pricing, FAQ and demo booking
-- [Pricing](https://conveypass.com/#pricing): the two plans
-- [FAQ](https://conveypass.com/#faq): common questions
+- [Homepage](https://convoypass.com/): features, how it works, pricing, FAQ and demo booking
+- [Pricing](https://convoypass.com/#pricing): the two plans
+- [FAQ](https://convoypass.com/#faq): common questions
 
 ## Guides
-- [Vehicle gate pass management system](https://conveypass.com/blog/vehicle-gate-pass-management-industrial-sites/): replacing paper gate logs
-- [Contractor vehicle management](https://conveypass.com/blog/contractor-vehicle-management-industrial-sites/): controlling external vehicles and drivers
-- [Driver and vehicle document expiry tracking](https://conveypass.com/blog/driver-vehicle-document-expiry-tracking/): preventing expired documents at the gate
-- [PIN-based gate access](https://conveypass.com/blog/pin-based-gate-access-industrial-sites/): no app, no email access for guards and drivers
-- [Monthly gate pass renewal](https://conveypass.com/blog/monthly-vehicle-gate-pass-renewal/): keeping contractor fleets eligible
+- [Vehicle gate pass management system](https://convoypass.com/blog/vehicle-gate-pass-management-industrial-sites/): replacing paper gate logs
+- [Contractor vehicle management](https://convoypass.com/blog/contractor-vehicle-management-industrial-sites/): controlling external vehicles and drivers
+- [Driver and vehicle document expiry tracking](https://convoypass.com/blog/driver-vehicle-document-expiry-tracking/): preventing expired documents at the gate
+- [PIN-based gate access](https://convoypass.com/blog/pin-based-gate-access-industrial-sites/): no app, no email access for guards and drivers
+- [Monthly gate pass renewal](https://convoypass.com/blog/monthly-vehicle-gate-pass-renewal/): keeping contractor fleets eligible
 
 ## Contact
 - info@lumoraventures.com
