@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://conveypass.com/</loc>
+    <loc>https://convoypass.com/</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://conveypass.com/blog/</loc>
+    <loc>https://convoypass.com/blog/</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://conveypass.com/blog/vehicle-gate-pass-management-industrial-sites/</loc>
+    <loc>https://convoypass.com/blog/vehicle-gate-pass-management-industrial-sites/</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://conveypass.com/blog/contractor-vehicle-management-industrial-sites/</loc>
+    <loc>https://convoypass.com/blog/contractor-vehicle-management-industrial-sites/</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://conveypass.com/blog/driver-vehicle-document-expiry-tracking/</loc>
+    <loc>https://convoypass.com/blog/driver-vehicle-document-expiry-tracking/</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://conveypass.com/blog/pin-based-gate-access-industrial-sites/</loc>
+    <loc>https://convoypass.com/blog/pin-based-gate-access-industrial-sites/</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://conveypass.com/blog/monthly-vehicle-gate-pass-renewal/</loc>
+    <loc>https://convoypass.com/blog/monthly-vehicle-gate-pass-renewal/</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
 </urlset>

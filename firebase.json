@@ -24,10 +24,6 @@
           "functionId": "book",
           "region": "us-central1"
         }
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
       }
     ]
   },

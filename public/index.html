@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ConvoyPass | Digital Gate Pass &amp; Vehicle Access Control for Industrial Sites</title>
   <meta name="description" content="ConvoyPass replaces paper gate logs with QR gate passes and automatic driver licence and vehicle insurance checks. Block expired documents at the gate. Flat $79/site/month.">
-  <link rel="canonical" href="https://conveypass.com/">
+  <link rel="canonical" href="https://convoypass.com/">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#0f1b2b">
 
@@ -14,16 +14,17 @@
   <meta property="og:site_name" content="ConvoyPass">
   <meta property="og:title" content="ConvoyPass | Digital Gate Pass &amp; Vehicle Access Control">
   <meta property="og:description" content="QR gate passes, automatic licence and insurance checks, and audit-ready logs for industrial sites. No per-user fees.">
-  <meta property="og:url" content="https://conveypass.com/">
-  <meta property="og:image" content="https://conveypass.com/og-image.png">
-  <meta property="og:image:width" content="1734">
-  <meta property="og:image:height" content="907">
+  <meta property="og:url" content="https://convoypass.com/">
+  <meta property="og:image" content="https://convoypass.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:alt" content="Security officer checking a driver at an industrial site gate">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ConvoyPass | Digital Gate Pass &amp; Vehicle Access Control">
   <meta name="twitter:description" content="QR gate passes, automatic licence and insurance checks, and audit-ready logs for industrial sites.">
-  <meta name="twitter:image" content="https://conveypass.com/og-image.png">
+  <meta name="twitter:image" content="https://convoypass.com/images/og-image.jpg">
 
   <!-- Icons -->
   <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -37,7 +38,7 @@
         imagesrcset="/images/hero-800.webp 800w, /images/hero-1280.webp 1280w, /images/hero-1680.webp 1680w"
         imagesizes="100vw" fetchpriority="high">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@500;600;700;800&amp;display=swap">
-  <link rel="stylesheet" href="/styles.css?v=6">
+  <link rel="stylesheet" href="/styles.css?v=7">
 
   <!-- Structured data -->
   <script type="application/ld+json">
@@ -46,38 +47,50 @@
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://conveypass.com/#org",
+        "@id": "https://convoypass.com/#org",
         "name": "ConvoyPass",
         "legalName": "Lumora Ventures",
-        "url": "https://conveypass.com/",
-        "logo": "https://conveypass.com/images/logo-512.png",
+        "url": "https://convoypass.com/",
+        "logo": "https://convoypass.com/images/logo-512.png",
         "email": "info@lumoraventures.com"
       },
       {
         "@type": "WebSite",
-        "@id": "https://conveypass.com/#website",
-        "url": "https://conveypass.com/",
+        "@id": "https://convoypass.com/#website",
+        "url": "https://convoypass.com/",
         "name": "ConvoyPass",
-        "publisher": { "@id": "https://conveypass.com/#org" },
+        "publisher": { "@id": "https://convoypass.com/#org" },
         "inLanguage": "en"
       },
       {
         "@type": "SoftwareApplication",
-        "@id": "https://conveypass.com/#software",
+        "@id": "https://convoypass.com/#software",
         "name": "ConvoyPass",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "description": "Digital gate-pass and contractor tracking for industrial sites: QR gate passes, automatic driver licence and vehicle insurance checks, penalty and suspension workflows, and audit-ready logs.",
-        "url": "https://conveypass.com/",
-        "image": "https://conveypass.com/og-image.png",
-        "publisher": { "@id": "https://conveypass.com/#org" },
-        "offers": {
-          "@type": "AggregateOffer",
-          "priceCurrency": "USD",
-          "lowPrice": "39",
-          "highPrice": "79",
-          "offerCount": "2"
-        }
+        "description": "Industrial vehicle gate-pass and contractor compliance management software for manufacturing, warehousing and logistics facilities: QR gate passes, automatic driver licence and vehicle insurance checks, penalty and suspension workflows, and audit-ready logs.",
+        "url": "https://convoypass.com/",
+        "image": "https://convoypass.com/images/og-image.jpg",
+        "featureList": ["Vehicle and driver management","Vehicle document expiry tracking","Driver and vehicle eligibility verification","Contractor safety inspection and trip approval","Penalty and suspension management","Monthly gate pass renewal","PIN-based vehicle access control","QR gate passes","Yard unloading verification","Audit-ready visit logs"],
+        "publisher": { "@id": "https://convoypass.com/#org" },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Flat rate",
+            "description": "One price per site per month regardless of fleet size. No per-user fees.",
+            "priceCurrency": "USD",
+            "price": "79",
+            "priceSpecification": { "@type": "UnitPriceSpecification", "price": "79", "priceCurrency": "USD", "unitText": "site per month", "billingDuration": "P1M" }
+          },
+          {
+            "@type": "Offer",
+            "name": "Per vehicle",
+            "description": "$39 per month base plus $1.50 per registered vehicle. No per-user fees.",
+            "priceCurrency": "USD",
+            "price": "39",
+            "priceSpecification": { "@type": "UnitPriceSpecification", "price": "39", "priceCurrency": "USD", "unitText": "site per month base", "billingDuration": "P1M" }
+          }
+        ]
       },
       {
         "@type": "FAQPage",
@@ -101,6 +114,31 @@
             "@type": "Question",
             "name": "Is ConvoyPass in use on a real site?",
             "acceptedAnswer": { "@type": "Answer", "text": "Yes. ConvoyPass is live at an industrial manufacturing site today, handling real vehicle and driver compliance." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a vehicle gate pass management system?",
+            "acceptedAnswer": { "@type": "Answer", "text": "It is software that replaces paper gate logs. Each vehicle and driver is registered once, eligibility is checked automatically at the gate, and every entry and exit is recorded in a searchable log. ConvoyPass does this with QR gate passes scanned on a guard's phone." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you stop drivers with expired licences or insurance at the gate?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ConvoyPass tracks driver licence and vehicle insurance expiry dates and checks them at check-in. If a document has expired, entry is blocked automatically instead of relying on a guard to spot it on paper." }
+          },
+          {
+            "@type": "Question",
+            "name": "How is ConvoyPass different from a paper gate register?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A paper register records what a guard writes down. ConvoyPass verifies documents and pass eligibility before entry, attaches photo evidence to flagged issues, and keeps an audit-ready log, so audits do not mean searching through binders." }
+          },
+          {
+            "@type": "Question",
+            "name": "Who can use ConvoyPass, and how do they sign in?",
+            "acceptedAnswer": { "@type": "Answer", "text": "ConvoyPass has seven roles with permissions enforced at the system level. Guards and yard staff sign in with a PIN, with no app or email account needed. Office-based administrative users can sign in with email." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can ConvoyPass handle monthly gate passes for contractor fleets?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. A month-end review flags which vehicles and drivers still qualify, and you can confirm renewals manually or set them to renew automatically." }
           }
         ]
       }
@@ -159,6 +197,16 @@
           <div class="stat"><dt>$0</dt><dd>Per-user fees, ever</dd></div>
           <div class="stat"><dt>No app</dt><dd>PIN-based gate access</dd></div>
         </dl>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="what-title">
+      <div class="wrap">
+        <div class="head" style="max-width:760px">
+          <h2 id="what-title" class="h2">What is ConvoyPass?</h2>
+          <p>ConvoyPass is industrial gate management software for vehicle gate pass management and contractor compliance. It is built for manufacturing plants, warehouses and logistics operations that let external vehicles and drivers onto site.</p>
+          <p style="margin-top:12px">It helps you manage contractor vehicles and drivers, verify vehicle eligibility and document validity, enforce inspection approvals, apply penalties and suspensions, renew monthly gate passes, and track vehicle movements in one digital record. Guards, yard officers and drivers use PIN-based vehicle access control, so external users never need to install an app or have an email account.</p>
+        </div>
       </div>
     </section>
 
@@ -302,6 +350,26 @@
             <summary>Is ConvoyPass in use on a real site?</summary>
             <p>Yes. ConvoyPass is live at an industrial manufacturing site today, handling real vehicle and driver compliance.</p>
           </details>
+          <details>
+            <summary>What is a vehicle gate pass management system?</summary>
+            <p>It is software that replaces paper gate logs. Each vehicle and driver is registered once, eligibility is checked automatically at the gate, and every entry and exit is recorded in a searchable log. ConvoyPass does this with QR gate passes scanned on a guard's phone.</p>
+          </details>
+          <details>
+            <summary>How do you stop drivers with expired licences or insurance at the gate?</summary>
+            <p>ConvoyPass tracks driver licence and vehicle insurance expiry dates and checks them at check-in. If a document has expired, entry is blocked automatically instead of relying on a guard to spot it on paper.</p>
+          </details>
+          <details>
+            <summary>How is ConvoyPass different from a paper gate register?</summary>
+            <p>A paper register records what a guard writes down. ConvoyPass verifies documents and pass eligibility before entry, attaches photo evidence to flagged issues, and keeps an audit-ready log, so audits do not mean searching through binders.</p>
+          </details>
+          <details>
+            <summary>Who can use ConvoyPass, and how do they sign in?</summary>
+            <p>ConvoyPass has seven roles with permissions enforced at the system level. Guards and yard staff sign in with a PIN, with no app or email account needed. Office-based administrative users can sign in with email.</p>
+          </details>
+          <details>
+            <summary>Can ConvoyPass handle monthly gate passes for contractor fleets?</summary>
+            <p>Yes. A month-end review flags which vehicles and drivers still qualify, and you can confirm renewals manually or set them to renew automatically.</p>
+          </details>
         </div>
       </div>
     </section>
@@ -398,6 +466,8 @@
           <li><a href="/blog/vehicle-gate-pass-management-industrial-sites/">Gate pass management</a></li>
           <li><a href="/blog/pin-based-gate-access-industrial-sites/">PIN-based gate access</a></li>
           <li><a href="/blog/monthly-vehicle-gate-pass-renewal/">Pass renewals</a></li>
+          <li><a href="/blog/contractor-vehicle-management-industrial-sites/">Contractor vehicles</a></li>
+          <li><a href="/blog/driver-vehicle-document-expiry-tracking/">Document expiry tracking</a></li>
         </ul>
       </nav>
       <div>
