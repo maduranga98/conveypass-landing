@@ -13,6 +13,11 @@
 - [Driver and vehicle document expiry tracking](https://convoypass.com/blog/driver-vehicle-document-expiry-tracking/): preventing expired documents at the gate
 - [PIN-based gate access](https://convoypass.com/blog/pin-based-gate-access-industrial-sites/): no app, no email access for guards and drivers
 - [Monthly gate pass renewal](https://convoypass.com/blog/monthly-vehicle-gate-pass-renewal/): keeping contractor fleets eligible
+- [What Is Vehicle Gate Pass Management Software? A Complete Guide](https://convoypass.com/blog/vehicle-gate-pass-management-software-guide/): what gate pass software does and how to choose it
+- [How to Prevent Vehicles With Expired Insurance From Entering Your Site](https://convoypass.com/blog/prevent-vehicles-with-expired-insurance-entering-site/): blocking vehicles with expired insurance at the gate
+- [QR Code Gate Passes: How They Work and When to Use Them](https://convoypass.com/blog/qr-code-gate-pass-system-industrial-sites/): how QR gate passes work and when to use them
+- [How to Manage Contractor Vehicles at Manufacturing Plants and Warehouses](https://convoypass.com/blog/contractor-vehicle-management-manufacturing-warehouses/): a five-step process for contractor vehicles at plants and warehouses
+- [Paper Gate Registers vs Digital Gate Management Systems](https://convoypass.com/blog/paper-gate-register-vs-digital-gate-management-system/): paper registers compared with digital gate systems
 
 ## Contact
 - info@lumoraventures.com
