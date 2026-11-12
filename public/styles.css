@@ -123,7 +123,7 @@ svg.tick { flex: none; width: 18px; height: 18px; margin-top: 2px; fill: none; s
 .band p:last-child { max-width: 680px; color: #fff; font: 700 clamp(20px, 2.6vw, 28px) / 1.35 var(--head); }
 
 /* ---------- Pricing ---------- */
-.plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 780px; margin-inline: auto; }
+.plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; max-width: 1040px; margin-inline: auto; }
 .plan { padding: 36px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
 .plan.dark { border-color: var(--navy); background: var(--navy); }
 .tag { display: inline-block; margin-bottom: 18px; padding: 4px 12px; border-radius: 999px; background: var(--cloud); color: var(--slate); font-size: 12px; font-weight: 700; }
@@ -132,7 +132,15 @@ svg.tick { flex: none; width: 18px; height: 18px; margin-top: 2px; fill: none; s
 .price small { color: var(--slate); font-size: 15px; font-weight: 500; }
 .dark .price { color: #fff; }
 .dark .price small, .dark .note { color: var(--muted); }
-.note { margin-bottom: 26px; color: var(--slate); font-size: 14px; }
+.note { margin-bottom: 22px; color: var(--slate); font-size: 14px; }
+
+.feats { display: grid; gap: 10px; margin: 0 0 28px; padding: 0; list-style: none; color: var(--navy); font-size: 14px; }
+.feats li { position: relative; padding-left: 24px; }
+.feats li::before { content: "\2713"; position: absolute; left: 0; color: var(--amber); font-weight: 700; }
+.feats li.off { color: var(--muted); }
+.feats li.off::before { content: "\2013"; color: var(--muted); }
+.dark .feats { color: #fff; }
+.dark .feats li.off, .dark .feats li.off::before { color: var(--muted); }
 
 /* ---------- FAQ ---------- */
 .faq { max-width: 760px; margin-inline: auto; border-top: 1px solid var(--line); }
