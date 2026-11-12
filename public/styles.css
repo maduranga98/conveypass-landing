@@ -160,6 +160,11 @@ svg.tick { flex: none; width: 18px; height: 18px; margin-top: 2px; fill: none; s
 .booking-copy h2 { color: #fff; font-size: clamp(26px, 3.6vw, 38px); font-weight: 800; line-height: 1.15; }
 .booking-copy p { color: #d7dce4; font-size: 16px; line-height: 1.6; }
 .ticks.on-dark { color: #fff; }
+.contact-list { display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.18); }
+.contact-list li { display: flex; align-items: center; gap: 10px; }
+.contact-list svg { flex: none; width: 18px; height: 18px; fill: none; stroke: var(--amber); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.contact-list a { color: #fff; font-weight: 500; }
+.contact-list a:hover { text-decoration: underline; }
 .form { display: flex; flex-direction: column; gap: 16px; padding: 28px; border-radius: var(--radius); background: #fff; box-shadow: 0 24px 60px -24px rgb(0 0 0 / .5); }
 .row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
