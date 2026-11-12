@@ -1,6 +1,6 @@
 # ConvoyPass
 
-> ConvoyPass is digital gate pass and contractor vehicle tracking software for industrial sites. It replaces paper gate logs with QR gate passes, automatic driver licence and vehicle insurance expiry checks, penalty and suspension workflows, and audit-ready logs. Guards and drivers sign in with a PIN, with no app or email required. Pricing: $79 per site per month flat, or $39 per month base plus $1.50 per registered vehicle, with no per-user fees. ConvoyPass is a product of Lumora Ventures.
+> ConvoyPass is digital gate pass and contractor vehicle tracking software for industrial sites. It replaces paper gate logs with QR gate passes, automatic driver licence and vehicle insurance expiry checks, penalty and suspension workflows, and audit-ready logs. Guards and drivers sign in with a PIN, with no app or email required. Pricing: Starter $39/month (up to 15 vehicles, 1 site), Growth $79/month (up to 50 vehicles, 1 site, adds penalty and suspension system and inspections), Compliance $149/month (up to 100 vehicles, up to 5 sites, adds custom branding and priority support). No per-user fees. ConvoyPass is a product of Lumora Ventures.
 
 ## Product
 - [Homepage](https://convoypass.com/): features, how it works, pricing, FAQ and demo booking
