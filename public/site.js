@@ -67,7 +67,7 @@
         say("Thanks! Your demo request is in. We'll confirm by email within one business day.", true);
       })
       .catch(function () {
-        say("Something went wrong. Please email info@lumoraventures.com and we'll book you in.", false);
+        say("Something went wrong. Please email info@lumoraventures.com or call +94 76 620 6555 and we'll book you in.", false);
       })
       .finally(function () {
         btn.disabled = false;
