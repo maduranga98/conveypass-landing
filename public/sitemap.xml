@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://convoypass.com/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://convoypass.com/vehicle-gate-pass-system/</loc>
+    <lastmod>2026-11-24</lastmod>
   </url>
   <url>
     <loc>https://convoypass.com/blog/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-24</lastmod>
   </url>
   <url>
     <loc>https://convoypass.com/blog/vehicle-gate-pass-management-industrial-sites/</loc>
@@ -67,5 +71,25 @@
   <url>
     <loc>https://convoypass.com/blog/gate-pass-management-software-cost-buyers-guide/</loc>
     <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://convoypass.com/blog/industrial-gate-security-entry-management/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://convoypass.com/blog/contractor-pass-system-industrial-sites/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://convoypass.com/blog/vehicle-gate-entry-log-template/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://convoypass.com/blog/how-long-to-keep-vehicle-gate-records/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://convoypass.com/blog/vehicle-compound-yard-management/</loc>
+    <lastmod>2026-11-24</lastmod>
   </url>
 </urlset>

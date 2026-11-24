@@ -307,3 +307,23 @@ body.no-scroll { overflow: hidden; }
 
 .post-faq { margin-top: 44px; }
 .post-faq .faq { max-width: none; }
+
+/* ---------- Product landing pages ---------- */
+.steps { counter-reset: step; margin: 0; padding: 0; list-style: none; }
+.steps .card-line { position: relative; padding-top: 64px; }
+.steps .card-line::before { counter-increment: step; content: counter(step, decimal-leading-zero); position: absolute; top: 24px; left: 28px; color: var(--amber); font: 800 15px var(--head); letter-spacing: .06em; }
+.prose { max-width: 760px; }
+.prose p { color: var(--slate); font-size: 17px; line-height: 1.75; }
+.prose p + p { margin-top: 14px; }
+.prose a, .split-copy p a, .card p a { color: var(--amber-dark); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.compare { max-width: 900px; margin-inline: auto; overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
+.compare table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 15.5px; }
+.compare th, .compare td { padding: 14px 18px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); line-height: 1.55; }
+.compare thead th { background: var(--cloud); color: var(--navy); font: 700 13px var(--head); text-transform: uppercase; letter-spacing: .05em; }
+.compare tbody th { color: var(--navy); font: 700 15px var(--head); }
+.compare td { color: var(--slate); }
+.compare td:last-child { color: var(--ink); font-weight: 500; }
+.compare tbody tr:last-child > * { border-bottom: 0; }
+.link-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px 28px; max-width: 900px; margin-inline: auto; }
+.link-list a { display: block; padding: 14px 0; border-bottom: 1px solid var(--line); color: var(--navy); font: 600 15.5px var(--head); }
+.link-list a:hover { color: var(--amber-dark); }

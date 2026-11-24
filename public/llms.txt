@@ -4,6 +4,7 @@
 
 ## Product
 - [Homepage](https://convoypass.com/): features, how it works, pricing, FAQ and demo booking
+- [Vehicle gate pass system](https://convoypass.com/vehicle-gate-pass-system/): how the ConvoyPass gate pass system works, the five checks run at every scan, paper vs digital comparison, pricing and FAQ
 - [Pricing](https://convoypass.com/#pricing): Starter, Growth and Compliance plans
 - [FAQ](https://convoypass.com/#faq): common questions
 
@@ -23,6 +24,12 @@
 - [How to Manage Gate Security Incidents, Penalties and Vehicle Suspensions](https://convoypass.com/blog/gate-security-incident-penalty-vehicle-suspension-management/): a six-step process for recording gate incidents, reviewing evidence, applying consistent consequences and tracking suspensions.
 - [Monthly Vehicle Permits: How to Manage Renewals and Expiring Documents](https://convoypass.com/blog/monthly-vehicle-gate-pass-renewal-management/): five steps for managing monthly gate pass renewals so a pass never stays active after a required document expires.
 - [How Much Does Gate Pass Management Software Cost? A Buyer's Guide](https://convoypass.com/blog/gate-pass-management-software-cost-buyers-guide/): what drives gate pass software pricing, how the ConvoyPass Starter, Growth and Compliance plans compare, and what to ask before you buy.
+
+- [Industrial Gate Security: A Practical Guide to Entry Management](https://convoypass.com/blog/industrial-gate-security-entry-management/): The four layers of industrial gate entry management, from approving vehicles in advance to logging every exit, and where paper processes break down.
+- [Contractor Pass System: How to Issue, Track and Revoke Contractor Passes](https://convoypass.com/blog/contractor-pass-system-industrial-sites/): What a contractor pass should be tied to, how to manage trucking and haulage contractors, and how to revoke a pass the moment something changes.
+- [Vehicle Gate Entry Log: What to Record (With a Free Template)](https://convoypass.com/blog/vehicle-gate-entry-log-template/): The fields every vehicle gate entry log needs, a free CSV template you can use today, and the mistakes that make logs useless at audit time.
+- [How Long Should You Keep Gate Logs, Driver Licence and Insurance Records?](https://convoypass.com/blog/how-long-to-keep-vehicle-gate-records/): There is rarely one legal answer. Here are the UK and US rules that shape a retention period for gate logs and driver documents, and an example schedule.
+- [Vehicle Compound Management: How to Control Vehicles Inside Your Yard](https://convoypass.com/blog/vehicle-compound-yard-management/): Gate control ends at the barrier. Here is how to manage vehicles inside the compound: live on-site lists, unloading checks, dwell limits and clean check-outs.
 
 ## Contact
 - info@lumoraventures.com
